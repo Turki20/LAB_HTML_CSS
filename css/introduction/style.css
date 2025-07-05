@@ -1,0 +1,245 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*
+
+        Reuse classes
+
+*/
+
+.center_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+
+        End reuse classes
+
+*/
+
+/*
+
+        Header
+
+*/
+header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: darkblue;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    margin: 0px 20px 0px 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header div span {
+    font-weight: 1000;
+    font-size: large;
+    text-shadow: 1px 1px black;
+    margin-right: 15px;
+}
+
+header div img {
+    width: 25px;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+header div a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+header div a:hover {
+    background-color: lightblue;
+    color: darkblue;
+}
+/*
+
+        End Header
+
+*/
+
+main {
+    padding: 30px;
+    background-color: whitesmoke;
+
+}
+
+
+/*
+
+        Main Content
+
+*/
+#top_section {
+    margin-top: 70px;
+    width: 100%;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px darkblue;
+    background-color: lightblue;
+}
+
+#top_section h1, p {
+    margin: 20px;
+    color: darkblue;
+}
+
+#news {
+    align-items: start;
+    margin-top: 20px;
+}
+
+#news div:last-child {
+    width: 20%;
+    border: 2px solid darkslateblue;
+    background-color: white;
+    box-shadow: 5px 5px darkslateblue;
+    flex-direction: column;
+}
+
+
+#new div:last-child:hover {
+    background-color: rgb(186, 186, 186);
+    box-shadow: unset 5px 5px darkslateblue;
+}
+
+#news div:last-child a, img {
+    margin: 5px;
+    font-size: larger;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 700;
+}
+
+#news div:first-child {
+    width: 100%;
+    border: 2px solid darkgreen;
+    background-color: lightgreen;
+    box-shadow: 5px 5px darkgreen;
+    text-align: center;
+    font-style: normal;
+}
+
+#news div {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px darkblue;
+}
+
+.table table {
+    width: 100%;
+    text-align: start;
+    border-collapse: collapse;
+}
+
+.table table thead tr th{
+    background-color: lightblue;
+    border-bottom: 2px solid darkblue;
+    color: darkblue;
+    padding: 10px;
+}
+
+.table table tbody tr td{
+    padding: 10px;
+    box-shadow: 1px 1px gray;
+    transition: 0.1s ease-in-out;
+}
+
+.table table tbody tr td:hover {
+    transform: scale(1.05);
+    background-color: darkblue;
+    color: whitesmoke;
+}
+.table table tbody tr:nth-child(odd) {
+    background-color: rgb(217, 225, 227);
+}
+
+
+#championships {
+    background-image: url("img/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 20px;
+    border: 3px darkblue solid;
+}
+
+#championships h4 {
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+#championships #ul {
+    margin-top: 15px;
+    text-shadow: 2px 2px 1px black;
+    background-color: rgba(0, 0, 139, 0.404);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+#championships ul:first-child {
+    margin-right: 30px;
+    list-style: decimal-leading-zero;
+}
+/*
+
+        End Main Content
+
+*/
+
+/*
+
+        Footer
+
+*/
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    font-weight: 1000;
+}
+
+/*
+
+        End Footer
+
+*/
