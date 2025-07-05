@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: darkcyan;
+    color: lightcyan;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    height: 90px;
+}
+
+header h1 {
+    position: absolute;
+    right: 0;
+    animation-name: moveText;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: black;
+}
+
+@keyframes moveText {
+    0% {
+        right: 10vw;
+        color: darkcyan;
+    }
+    25% {
+        color: lightcyan;
+    }
+    50% {
+        right: 70vw;
+        color: darkcyan;
+    }
+    75% {
+        color: lightcyan;
+    }
+    100% {
+        right: 10vw;
+        color: darkcyan;
+    }
+
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px){
+    main {
+        font-size: small;
+    }
+}
